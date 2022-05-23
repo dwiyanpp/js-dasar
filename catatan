@@ -1,0 +1,30 @@
+* Control flow
+    - pengulangan : melakukan hal yang sama berulang kali
+
+        table penelusuran
+
+        let noAngkot = 1;
+        let jmlAngkot = 5;
+
+        noAngkot | noAngkot <= jmlAngkot(5)   |    kondisi
+            1               true                turun kebawah
+            2               true                turun kebawah
+            3               true                turun kebawah
+            4               true                turun kebawah
+            5               true                turun kebawah
+            6               false              looping berhenti
+
+        1. while : melakukan perulangan jika bernilai benar
+
+            nilai awal = ;
+            while(true) {
+                kondisi
+            increment/decrement
+            }
+
+            contoh : while.html & angkot1.html
+
+        2. for : 
+
+        
+    - pengkondisian : 

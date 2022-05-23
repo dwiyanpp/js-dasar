@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>while</title>
+</head>
+<body>
+
+
+    <script>
+
+        let angkaAwal = 1;
+
+        while(angkaAwal <= 20) {
+            console.info(`angka ${angkaAwal}`);
+            angkaAwal++;
+        }
+
+
+        const motor = prompt("masukan angka");
+
+        while(motor) {
+            if(motor % 2 === 0) {
+                document.writeln("motor genap");
+            } else {
+                document.writeln("motor ganjil");
+            }
+            motor++;
+            
+            if(motor % 2 === 0 || motor % 2 === 1) {
+                confirm("lagi");
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
