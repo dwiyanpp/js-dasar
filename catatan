@@ -24,7 +24,13 @@
 
             contoh : while.html & angkot1.html
 
-        2. for : 
+        2. for : melakukan perulangan jika bernilai benar
+
+            for(nilai awal = ; true ; increment/decrement) {
+                kondisi
+            }
+
+            contoh : for.html & angkot2.html
 
         
     - pengkondisian : 
