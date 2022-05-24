@@ -17,8 +17,8 @@
         1. while : melakukan perulangan jika bernilai benar
 
             nilai awal = ;
-            while(true) {
-                kondisi
+            while(kondisi) {
+                aksi
             increment/decrement
             }
 
@@ -26,11 +26,33 @@
 
         2. for : melakukan perulangan jika bernilai benar
 
-            for(nilai awal = ; true ; increment/decrement) {
-                kondisi
+            for(nilai awal = ; kondisi ; increment/decrement) {
+                aksi
             }
 
-            contoh : for.html & angkot2.html
+            contoh : for.html , angkot2.html & angkot3.html
 
         
-    - pengkondisian : 
+    - pengkondisian : menangkap apakah data yang dimasukan user bernilai true atau false
+        1. if else : 2 kondisi 
+            
+            if(kondisi) {
+                true
+            } else {
+                false
+            }
+
+            contoh : angkot3.html
+
+        2. else if : lebih dari 2 kondisi
+            
+            if(kondisi 1) {
+                aksi 1
+            } else if (kondisi 2) {
+                aksi 2
+            } else {
+                false
+            }
+
+            contoh : angkot4.html
+            

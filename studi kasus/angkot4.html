@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>angkot 4 (for.. if-else.. else-if)</title>
+</head>
+<body>
+
+
+
+    <script>
+
+        let jmlAngkot = 10;
+        let angkotBeroperasi = 6;
+        let angkotLembur = 8;
+        let angkot = 1;
+
+        for(angkot; angkot <= jmlAngkot; angkot++) {
+
+            if(angkot <= angkotBeroperasi) {
+                console.info(`angkot No. ${angkot} beroperasi dengan baik.`);
+            } else if(angkot == angkotLembur) {
+                console.info(`angkot no. ${angkot} sedang lembur.`);
+            } else {
+                console.info(`angkot No. ${angkot} sedang tidak beroperasi.`);
+            }
+
+        }
+
+    </script>
+    
+</body>
+</html>
