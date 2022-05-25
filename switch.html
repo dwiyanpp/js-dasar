@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch</title>
+</head>
+<body>
+
+    <script>
+
+        let pilihan = prompt("masukan nama kereta (senja utama jogja, bengawan, progo, pangrango)");
+
+        switch (pilihan) {
+            case "senja utama jogja":
+                document.writeln(`Kereta ${pilihan} berangkat dari stasiun pasar senen`);
+                break;
+            case "bengawan":
+                document.writeln(`Kereta ${pilihan} berangkat dari stasiun pasar senen`);
+            case "progo":
+                document.writeln(`Kereta ${pilihan} berangkat dari stasiun pasar senen`);
+            case "pangrango": 
+                document.writeln(`Kereta ${pilihan} berangkat dari stasiun pasar bogor paledang`);
+            default:
+                document.writeln(`Kereta ${pilihan} tidak tersedia`);
+                break;
+        }
+
+    </script>
+    
+</body>
+</html>

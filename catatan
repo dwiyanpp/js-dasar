@@ -55,4 +55,22 @@
             }
 
             contoh : angkot4.html
+
+        3. switch : 1 kondisi
+
+            let variabel :
+
+            switch(variabel) {
+                case nilai 1:
+                    aksi
+                break;
+                case nilai 2:
+                    aksi
+                break;
+                default:
+                    aksi
+                break;
+            }
+
+            contoh : switch.html
             

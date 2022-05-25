@@ -14,15 +14,16 @@
 
         let jmlAngkot = 10;
         let angkotBeroperasi = 6;
-        let angkotLembur = 8;
+        let angkotLembur = [8,10,5];
         let angkot = 1;
+
 
         for(angkot; angkot <= jmlAngkot; angkot++) {
 
-            if(angkot <= angkotBeroperasi) {
-                console.info(`angkot No. ${angkot} beroperasi dengan baik.`);
-            } else if(angkot == angkotLembur) {
+            if(angkot == angkotLembur[0] || angkot == angkotLembur[1] || angkot == angkotLembur[2]) {
                 console.info(`angkot no. ${angkot} sedang lembur.`);
+            } else if(angkot <= angkotBeroperasi) {
+                console.info(`angkot No. ${angkot} beroperasi dengan baik.`);
             } else {
                 console.info(`angkot No. ${angkot} sedang tidak beroperasi.`);
             }
