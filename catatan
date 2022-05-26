@@ -73,4 +73,11 @@
             }
 
             contoh : switch.html
+
+
+* function :
+    - built-in function : function yang disediakan dari javascript didalam browser
+        contoh : alert(), prompt(), confirm()
+
+    - user-defined function : function yang kita buat sendiri
             
