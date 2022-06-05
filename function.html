@@ -13,14 +13,31 @@
     <script>
 
         function penjumlahan(kubusA, kubusB) {
-            let hasil = kubusA + kubusB;
-
-            return hasil;
+            return kubusA + kubusB;
         }
 
         let result = penjumlahan(512,17);
 
         console.info(result);
+
+
+
+
+        function pengurangan() {
+            
+            let hasilKurang = 0;
+            for(let i = 0; i < arguments.length; i++) {
+                hasilKurang = arguments[i] - hasilKurang;
+            }
+
+            return hasilKurang;
+
+
+        }
+
+        let user = pengurangan(100,50,30);
+
+        console.info(user);
 
     </script>
     

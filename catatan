@@ -80,4 +80,12 @@
         contoh : alert(), prompt(), confirm()
 
     - user-defined function : function yang kita buat sendiri
+
+        function penjumlahan(a + b) { //parameter
+            return a + b;
+        }
+
+        console.info(penjumlahan(10, 20)); //argument
+
+        1. function scoope : function antara diluar blok dan dalam blok
             
